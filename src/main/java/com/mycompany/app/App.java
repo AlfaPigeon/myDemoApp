@@ -59,8 +59,9 @@ public class App{
         if (processBuilder.environment().get("PORT") != null) {
             return Integer.parseInt(processBuilder.environment().get("PORT"));
         }
-        return 0;
+        return 4567; //return default port if heroku-port isn't set (i.e. on localhost)
     }
+
 
     public static boolean search(ArrayList<Integer> array, int e) {
         System.out.println("inside search");
