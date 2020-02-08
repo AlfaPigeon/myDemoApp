@@ -51,7 +51,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/resources/templates/compute.mustache">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="221">
-              <caret line="13" column="32" selection-start-line="13" selection-start-column="32" selection-end-line="13" selection-end-column="32" />
+              <caret line="13" column="41" selection-start-line="13" selection-start-column="41" selection-end-line="13" selection-end-column="41" />
             </state>
           </provider>
         </entry>
@@ -393,7 +393,7 @@
       <workItem from="1581163705135" duration="2300000" />
       <workItem from="1581167375497" duration="787000" />
       <workItem from="1581171821681" duration="1802000" />
-      <workItem from="1581173654409" duration="9061000" />
+      <workItem from="1581173654409" duration="9279000" />
     </task>
     <task id="LOCAL-00001" summary="Preparing tests-Oğuz kaan">
       <created>1581110564267</created>
@@ -434,7 +434,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="20562000" />
+    <option name="totallyTimeSpent" value="20780000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -793,7 +793,7 @@
     <entry file="file://$PROJECT_DIR$/src/main/resources/templates/compute.mustache">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
-          <caret line="13" column="32" selection-start-line="13" selection-start-column="32" selection-end-line="13" selection-end-column="32" />
+          <caret line="13" column="41" selection-start-line="13" selection-start-column="41" selection-end-line="13" selection-end-column="41" />
         </state>
       </provider>
     </entry>
