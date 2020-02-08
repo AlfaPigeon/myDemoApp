@@ -1,11 +1,18 @@
 <title>My application deployed automatically</title>
 <h1>Hello, World!</h1>
-        Result is {{result}}
+
+
+<p>Result is {{result}}</p>
+
 
 
 <form action="compute" method="post">
-<textarea name="input1" rows="10" cols="30"></textarea>
-<textarea name="input2" rows="10" cols="30"></textarea>
-<br>
+<p>Her satıra input'u giriniz</p>
+<textarea name="x" rows="10" cols="30"></textarea>
+<p>Her satıra output'u giriniz</p>
+<textarea name="y" rows="10" cols="30"></textarea>
+<p>Eklenicek fonksiyonları gösterilen formatta giriniz(+/- ax formatında olmalıdır ikiside a >= 1 için)</p>
+<input placeholder="+1x" name="s1" type="text"/>
+<input placeholder="+1x" name="s2" type="text"/>
 <input type="submit">
 </form>

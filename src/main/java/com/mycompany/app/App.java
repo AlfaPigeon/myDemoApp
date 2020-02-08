@@ -9,6 +9,8 @@ import java.util.HashMap;
 import java.util.Map;
 import java.util.Stack;
 
+
+
 import spark.ModelAndView;
 import spark.template.mustache.MustacheTemplateEngine;
 
@@ -23,22 +25,44 @@ public class App{
             //System.out.println(req.queryParams("input1"));
             //System.out.println(req.queryParams("input2"));
 
-            String input1 = req.queryParams("input1");
-            java.util.Scanner sc1 = new java.util.Scanner(input1);
-            sc1.useDelimiter("[;\r\n]+");
+            String input1 = req.queryParams("x");
+            String input2 = req.queryParams("y");
+            String input3= req.queryParams("s1");
+            String input4 = req.queryParams("s2");
+
+            java.util.Scanner x = new java.util.Scanner(input1);
+            x.useDelimiter("[;\r\n]+");
+            java.util.Scanner y = new java.util.Scanner(input2);
+            y.useDelimiter("[;\r\n]+");
+
+            String s1 = input3;
+            String s2 = input4;
+
             java.util.ArrayList<Integer> inputList = new java.util.ArrayList<>();
-            while (sc1.hasNext())
+            java.util.ArrayList<Integer> output = new java.util.ArrayList<>();
+            while (x.hasNext())
             {
-                int value = Integer.parseInt(sc1.next().replaceAll("\\s",""));
+                int value = Integer.parseInt(x.next().replaceAll("\\s",""));
                 inputList.add(value);
             }
-            System.out.println(inputList);
+
+            while (y.hasNext())
+            {
+                int value = Integer.parseInt(y.next().replaceAll("\\s",""));
+                output.add(value);
+            }
+
+            int[] arr1 = new int[inputList.size()];
+            for (int i = 0; i < arr1.length; i++) {
+                arr1[i] = inputList.get(i);
+            }
+            int[] arr2 = new int[output.size()];
+            for (int i = 0; i < arr2.length; i++) {
+                arr2[i] = output.get(i);
+            }
 
 
-            String input2 = req.queryParams("input2").replaceAll("\\s","");
-            int input2AsInt = Integer.parseInt(input2);
-
-            boolean result = App.search(inputList, input2AsInt);
+            boolean result = App.myMethod(arr1,arr2,s1,s2);
 
             Map map = new HashMap();
             map.put("result", result);
