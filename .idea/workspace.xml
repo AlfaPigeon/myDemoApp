@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5b0cfa06-5c15-4b60-a2ad-dc900ec8697e" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/compute.mustache" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/compute.mustache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mycompany/app/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mycompany/app/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/mycompany/app/AppTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/mycompany/app/AppTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -48,11 +48,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="compute.mustache" pinned="false" current-in-tab="true">
+      <file leaf-file-name="compute.mustache" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/resources/templates/compute.mustache">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="44" selection-start-column="44" selection-end-column="44" />
+            <state relative-caret-position="187">
+              <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
             </state>
           </provider>
         </entry>
@@ -95,20 +95,19 @@
       <file leaf-file-name="AppTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/mycompany/app/AppTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="22" column="5" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
+            <state relative-caret-position="102">
+              <caret line="38" column="23" selection-start-line="38" selection-start-column="23" selection-end-line="38" selection-end-column="24" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="App.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="App.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/mycompany/app/App.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="918">
-              <caret line="63" selection-start-line="63" selection-end-line="63" />
+            <state relative-caret-position="-369">
+              <caret line="85" column="26" lean-forward="true" selection-start-line="85" selection-start-column="26" selection-end-line="85" selection-end-column="29" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="method#search#0;class#App#0" />
               </folding>
             </state>
           </provider>
@@ -140,15 +139,15 @@
       <list>
         <option value="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" />
         <option value="$PROJECT_DIR$/src/main/java/com/mycompany/app/AppTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/mycompany/app/AppTest.java" />
         <option value="$PROJECT_DIR$/.travis.yml" />
         <option value="$PROJECT_DIR$/Procfile" />
-        <option value="$PROJECT_DIR$/src/main/java/com/mycompany/app/App.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/system.properties" />
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/src/main/resources/templates/compute.mustache" />
+        <option value="$PROJECT_DIR$/src/test/java/com/mycompany/app/AppTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/mycompany/app/App.java" />
       </list>
     </option>
   </component>
@@ -395,7 +394,7 @@
       <workItem from="1581163705135" duration="2300000" />
       <workItem from="1581167375497" duration="787000" />
       <workItem from="1581171821681" duration="1802000" />
-      <workItem from="1581173654409" duration="1245000" />
+      <workItem from="1581173654409" duration="6965000" />
     </task>
     <task id="LOCAL-00001" summary="Preparing tests-Oğuz kaan">
       <created>1581110564267</created>
@@ -436,7 +435,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12746000" />
+    <option name="totallyTimeSpent" value="18466000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -456,15 +455,15 @@
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
-      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.39818764" side_tool="true" visible="true" weight="0.42374727" />
+      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.39872068" side_tool="true" visible="true" weight="0.42374727" />
       <window_info anchor="right" id="Maven Projects" order="3" weight="0.32995737" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.49413645" weight="0.32897604" />
+      <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.4936034" weight="0.32897604" />
       <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49520257" weight="0.25381264" />
-      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.60181236" visible="true" weight="0.42374727" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" sideWeight="0.6012793" visible="true" weight="0.42374727" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26066098" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26066098" />
       <window_info anchor="right" id="Database" order="3" weight="0.32995737" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -554,7 +553,6 @@
           <caret line="63" selection-start-line="63" selection-end-line="63" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="method#search#0;class#App#0" />
           </folding>
         </state>
       </provider>
@@ -620,7 +618,6 @@
           <caret line="8" column="34" selection-start-line="8" selection-start-column="34" selection-end-line="8" selection-end-column="34" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="method#search#0;class#App#0" />
           </folding>
         </state>
       </provider>
@@ -746,17 +743,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/mycompany/app/App.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="918">
-          <caret line="63" selection-start-line="63" selection-end-line="63" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#search#0;class#App#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1598">
@@ -788,17 +774,27 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/mycompany/app/AppTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/compute.mustache">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="22" column="5" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
+        <state relative-caret-position="187">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/compute.mustache">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/mycompany/app/AppTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="44" selection-start-column="44" selection-end-column="44" />
+        <state relative-caret-position="102">
+          <caret line="38" column="23" selection-start-line="38" selection-start-column="23" selection-end-line="38" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/mycompany/app/App.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-369">
+          <caret line="85" column="26" lean-forward="true" selection-start-line="85" selection-start-column="26" selection-end-line="85" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

@@ -7,6 +7,7 @@ import static spark.Spark.post;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.Map;
+import java.util.Stack;
 
 import spark.ModelAndView;
 import spark.template.mustache.MustacheTemplateEngine;
@@ -73,5 +74,57 @@ public class App{
         return false;
     }
 
+    /**
+     *
+     * solves s1 and s2 polinomşal by values in x
+     * and adds them and compares them to values in y,
+     * if y has such values returns true
+     * +-ax^n, n  can only be 1
+     *
+     * @param x  an array of inputs
+     * @param y an array of outputs
+     * @param s1 polinomial 1
+     * @param s2 polinomial 2
+     * @return returns true if y has every output
+     */
+    public static boolean myMethod(int[] x, int[] y, String s1, String s2) {
+
+        if(
+                x.length == 0
+                | y.length == 0
+                | s1.length() == 0
+                | s2.length() == 0
+                | s1.indexOf("x") == -1
+                | s2.indexOf("x") == -1
+                )return false;
+
+        boolean check = false;
+
+
+        int kat1 = ((s1.charAt(0) == '-')?-1:1)*Integer.parseInt(s1.substring(1,s1.length()-1));
+        int kat2 = ((s2.charAt(0) == '-')?-1:1)*Integer.parseInt(s2.substring(1,s2.length()-1));
+
+
+        int val = 0;
+        for(int i : x){
+        val = 0;
+        val = val + i*kat1 + i*kat2;
+
+
+        for(int c : y){
+            if(c == val){
+                check = true;
+                break;
+            }
+        }
+
+
+
+        }
+
+
+
+        return check;
+    }
 
 }
